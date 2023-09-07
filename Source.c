@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <conio.h>
 int main() {
-	// Оголошення
-	char ch, str[79 + 1]; // З урахуванням дного місця для символу '\0'
+	// ЋголошеннЯ
+	char ch, str[79 + 1]; // з урахуваннЯм одного мґсцЯ длЯ останього символу '\0'
 	int x, y, z;
 	float a, b, c;
 	double A, B, C;
 
-	// Виконання програми
+	// ‚иконаннЯ програми
 	printf("\n\t Enter the symbol:");
 	ch = getchar();
 	printf("\t The symbol is:%c \n ", ch);
